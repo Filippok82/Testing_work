@@ -1,0 +1,162 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,1,,Меню,1
+,,,,,,,,,,,,,,,,,,,,2,1,"Раздел Поиск",1
+,,,,,,,,,,,,,,,,,,,,3,1,"Раздел Корзина",1
+,,,,,,,,,,,,,,,,,,,,5,1,"Раздел Наш Блог",1
+,,,,,,,,,,,,,,,,,,,,9,1,"Раздел ""Забронировать столик""",1
+,,,,,,,,,,,,,,,,,,,,10,1,"Раздел ""Наши повара""",1
+1,"Отображение раздела ""Поиск"" в меню",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+2,"Переход на модальное окно ""Поиск""",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+3,"Отображение поля ""Поиск""",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+4,"Наличие плейсхолдера “Введите ваш запрос…”",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+5,"Скрытие плейсхолдера при вводе поискового запроса",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+6,"Проверка отображения ошибки “Неверный формат данных”",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+7,"Выполнение поискового запроса: валидный поиск",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+8,"Отображение садджестов",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+9,"Переход на страницу страницу “Поиск”: поисковой запрос",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+10,"Переход на страницу страницу “Поиск”: выбор из садджестов",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+11,"Отображение крестика (закрытие модального окна)",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+12,"Переход на ту же страницу, с которой перешел в поиск при клике на крестик",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+13,"Отображение ошибки “Отсутствует соединение с интернетом”",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+14,"Рефреш страницы при клике на кнопку “Обновите страницу”",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,2,1,"Раздел Поиск",
+15,"Отображение раздела ""Корзина"" в меню",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+16,"Отображение каунтера < 99",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+17,"Отображение каунтера = 99",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+18,"Отображение каунтера > 99",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+19,"Отображение модального окна ""Корзина""",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+34,"Отображение слова блюда",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+35,"Отображение слова блюд",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+36,"Отображение слова блюдо",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+37,"Отображение каунтера <=9",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+38,"Отображение заглушки ""В корзине пусто""",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+39,"Отображение иконки добавленного товара",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+40,"Название товара отображается на кароточке",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+41,"Кнопка ""Закрыть"" закрывает модальное окно",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+42,"Стоимость товара за одну позицию",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+43,"Стоимость товара за N позиций",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+44,"Степпер увеличение позиции товара",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+45,"Удаление товара из корзины",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+46,"Скролл списка товаров  в корзине",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+47,"Раздел ""Стоимость всех позиций""",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+48,"Раздел ""Сервисный сбор""",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+49,"Раздел ""Всего""",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+50,"Выполнение заказа",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+51,"Переход на страницу оплаты",,,,,undefined,undefined,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,3,1,"Раздел Корзина",
+100,"Отображение блока ""Наш Блог""",,"открыта страница [https://limelab.tech/foodbuzz/index.html](https://limelab.tech/foodbuzz/index.html)",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Проскролить страницу до блока ""Наш Блог""
+2. Наличие карточек с новостями
+3. Наличие атрибутов карточки
+","1. Отображается заголовок ""Наш Блог""
+2. В разделе отображения 3 последних новостей в виде карточек
+3. Каждая карточка содержит:
+
+\- изображение
+\- заголовок
+-публикация
+\- автор
+\- превью описание новости
+\- кнопка «еще…» \(ведет на саму новость\)
+
+* иконка комментариев и каунтер комментариев (минимальное значение 1, высшее значение 99+)
+","1. 
+2. 
+3. 
+",,,5,1,"Раздел Наш Блог",
+101,"Отображение карточки новости",,"открыта страница https://limelab.tech/foodbuzz/index.html в блоке ""Наш Блог"" карточка новости",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Навести курсор на картинку карточки новости
+2. Навести курсор на заголовок карточки
+3. Навести курсор на дату публикации
+4. Навести курсор на автора публикации
+5. Навести курсор на кнопку ""Еще""
+","1. Увеличение картинки при наведении курсора
+2. Цвет текста заголовка меняется на красный
+3. Цвет цифр даты меняется на красный
+4. Цвет текста меняется на красный
+5. Ховер-эффект у кнопки
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,5,1,"Раздел Наш Блог",
+102,"Переход на страницу новость в блоке ""Наш блог""",,"открыта страница https://limelab.tech/foodbuzz/index.html в блоке ""Наш Блог"" карточка новости",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Нажать кнопку ""Еще""
+","1. Переход на страницу новости
+","1. 
+",,,5,1,"Раздел Наш Блог",
+103,"Сравнение атрибутов карточки новости и атрибутов страницы новости",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Наличие каунтера комментариев на карточке новости
+2. Наличие даты публикации в карточке новости
+3. Наличие автора публикации в карточке новости
+4. Нажать кнопку ""Еще""
+5. Наличие комментариев на странице новости
+6. Наличие даты публикации на странице новости
+7. Наличие автора публикации на странице новости
+","1. На каунтере комментариев отображается цифра 2
+2. Отображается дата публикации ""1650760380""
+3. Отображается автор публикации ""Somrat Islam""
+4. Переход на страницу новости
+5. На странице новости отображаются 2 комментария
+6. На странице новости отображается такая же дата публикации, как и в карточке
+7. На странице новости отображается такое же имя автора публикации, как и в карточке
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+",,,5,1,"Раздел Наш Блог",
+104,"Переход в блок ""Наш блог"" из меню главной страницы",,"открыта страница https://limelab.tech/foodbuzz/index.html",,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. В меню главной страницы нажать на раздел ""Блог""
+","1. Переход в раздел ""Наш Блог""
+","1. 
+",,,5,1,"Раздел Наш Блог",
+76,"Отображение поля ""Имя""",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+77,"Поле ""Имя"" имеет тип text",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+78,"Поле ""Имя"" обязательное для заполнения",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+79,"Поле ""Имя "" имеет минимальное  значение 1 символ",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+80,"Поле ""Имя "" имеет максимальное значение 50 символов",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+81,"Отображение поля """"Email",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+82,"Поле ""Email"" обязательное для заполнения",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+83,"Поле ""Email"" имеет тип email",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+84,"Отображение  поле ""Номер телефона""",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+85,"Поле ""Номер телефона"" имеет тип tel",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+86,"Поле ""Номер телефона"" имеет паттерн: 2[0-9]{3}-[0-9]{3}",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+87,"Отображение поля ""Время""",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+88,"Поле ""Время"" содержит выпадающий список с доступным для бронирования временем.",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+89,"Отображение  поля  ""Количество мест""",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+90,"Поле ""Количество мест"" содержит выпадающий список",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+91,"Поле ""Количество мест"" отображается в формате: N – N мест N – N мест",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+92,"Отображение  поля ""Дата""",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+93,"Поле ""Дата"" имеет пикер выбора даты",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+94,"Отображение  поля ""Сообщение""",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+95,"Поле ""Сообщение"" имеет тип message",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+96,"Поле ""Сообщение"" имеет максимальное значение для поля – 250 символов.",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+97,"Отображение  кнопки ""Забронировать""",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+98,"Нажатие кнопки ""Забронировать"" выводит модальное окно ""“Ваш столик на N персон забронирован на время NN часов”.",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,9,1,"Раздел ""Забронировать столик""",
+99,"Проверить верстку карточки повара",,,,,medium,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Наличие иконки
+2. Наличие заголовка
+3. Наличие карточек
+4. Расположение карточек
+5. Наличие атрибутов карточки
+6. Навести курсор на карточку повара
+7. Навести курсор на иконку соцсети
+8. Навести курсор на ФИО
+","1. отображается иконка ""Пончик""
+2. отображается заголовок ""Наши повара""
+3. Отображаются карточки поваров
+4. Карточки на одном уровне
+5. фотография повара
+ссылка на соцсети, которые ведут на соцсети повара
+отображается имя и фамилия повара
+блок с описанием
+номер сотового телефона
+почта
+6. Увеличение фотографии при наведении курсора
+7. Цвет иконки меняется на красный
+8. Цвет текста меняется с черного на красный
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+",,,10,1,"Раздел ""Наши повара""",
